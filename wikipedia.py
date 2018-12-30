@@ -8,7 +8,7 @@ import requests
 
 # MQTT client to connect to the bus
 mqtt_client = mqtt.Client()
-HOST = "localhost"
+HOST = "mqtt://raspi-master.local"
 PORT = 1883
 WIKI_TOPICS = ['hermes/intent/SeachWikipedia']
 WIKI_SEND_TOPICS = ['wiki/information']
