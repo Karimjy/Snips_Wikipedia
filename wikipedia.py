@@ -11,7 +11,8 @@ import paho.mqtt.client as mqtt
 mqtt_client = mqtt.Client()
 HOST = "raspi-master.local"
 PORT = 1883
-WIKI_TOPICS = ['hermes/intent/NinjaPanda:SearchInWiki']
+# WIKI_TOPICS = ['hermes/intent/NinjaPanda:SearchInWikipedia']
+WIKI_TOPICS = ['hermes/intent/NinjaPanda:search']
 WIKI_SEND_TOPICS = ['wiki/information']
 
 # WIKIPEDIA API
